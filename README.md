@@ -46,3 +46,13 @@ the SDLC is the set of phases that includes DevOps for taking part in Developmen
 6. Continuous Feedback
 7. Continuous Operations
 ![Alternative Text](images/DevOps-lifecycle.png)
+
+# 1. Continuous Development
+In Continuous Development code is written in small, continuous bits rather than all at once, Continuous Development is important in DevOps because this improves efficiency every time a piece of code is created, it is tested, built, and deployed into production. Continuous Development raises the standard of the code and streamlines the process of repairing flaws, vulnerabilities, and defects. It facilitates developers’ ability to concentrate on creating high-quality code.
+![Alternative Text](images/Code-developing.png)
+# 2. Continuous Integration 
+- Continuous Integration can be explained mainly in 4 stages in DevOps. They are as follows:
+- Getting the SourceCode from SCM
+- Building the code
+- Code quality review
+- Storing the build artifacts 
