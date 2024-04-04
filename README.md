@@ -15,3 +15,21 @@ Traditional IT has 1000s lines of code and is created by different teams with di
 # DevOps Lifecycle
 DevOps lifecycle is the methodology where professional development teams come together to bring products to market more efficiently and quickly. The structure of the DevOps lifecycle consists of Plan, Code, Building, Test, Releasing, Deploying, Operating,  and Monitoring.
 ![Alternative Text](images/DevOps-Intro.png)
+Plan: Determining the commercial needs and gathering the opinions of end-user by professionals in this level of the DevOps lifecycle. 
+**Code:** At this level, the code for the same is developed and in order to simplify the design, the team of developers uses tools and extensions that take care of security problems.
+**Build:** After the coding part, programmers use various tools for the submission of the code to the common code source.
+**Test:** This level is very important to assure software integrity. Various sorts of tests are done such as user acceptability testing, safety testing, speed testing, and many more.
+**Release:** At this level, everything is ready to be deployed in the operational environment.
+**Deploy:** In this level, Infrastructure-as-Code assists in creating the operational infrastructure and subsequently publishes the build using various DevOps lifecycle tools.  
+**Operate:** At this level, the available version is ready for users to use. Here, the department looks after the server configuration and deployment.
+**Monitor**: The observation is done at this level that depends on the data which is gathered from consumer behavior, the efficiency of applications, and from various other sources.
+
+# Advantages:
+**Faster Delivery:** DevOps enables organizations to release new products and updates faster and more frequently, which can lead to a competitive advantage.
+**Improved Collaboration:** DevOps promotes collaboration between development and operations teams, resulting in better communication, increased efficiency, and reduced friction.
+**Improved Quality:** DevOps emphasizes automated testing and continuous integration, which helps to catch bugs early in the development process and improve the overall quality of software.
+**Increased Automation:** DevOps enables organizations to automate many manual processes, freeing up time for more strategic work and reducing the risk of human error.
+**Better Scalability:** DevOps enables organizations to quickly and efficiently scale their infrastructure to meet changing demands, improving the ability to respond to business needs.
+**Increased Customer Satisfaction:** DevOps helps organizations to deliver new features and updates more quickly, which can result in increased customer satisfaction and loyalty.
+**Improved Security:** DevOps promotes security best practices, such as continuous testing and monitoring, which can help to reduce the risk of security breaches and improve the overall security of an organization’s systems.
+**Better Resource Utilization:** DevOps enables organizations to optimize their use of resources, including hardware, software, and personnel, which can result in cost savings and improved efficiency.
