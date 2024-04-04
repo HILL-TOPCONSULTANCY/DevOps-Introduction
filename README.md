@@ -15,3 +15,4 @@ Traditional IT has 1000s lines of code and is created by different teams with di
 # DevOps Lifecycle
 DevOps lifecycle is the methodology where professional development teams come together to bring products to market more efficiently and quickly. The structure of the DevOps lifecycle consists of Plan, Code, Building, Test, Releasing, Deploying, Operating,  and Monitoring.
 
+![Alternative Text](images/DevOps-Intro.png)
