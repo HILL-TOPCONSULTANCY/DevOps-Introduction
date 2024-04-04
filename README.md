@@ -16,7 +16,7 @@ Traditional IT has 1000s lines of code and is created by different teams with di
 DevOps lifecycle is the methodology where professional development teams come together to bring products to market more efficiently and quickly. The structure of the DevOps lifecycle consists of Plan, Code, Building, Test, Releasing, Deploying, Operating,  and Monitoring.
 ![Alternative Text](images/DevOps-Intro.png)
 Plan: Determining the commercial needs and gathering the opinions of end-user by professionals in this level of the DevOps lifecycle. 
-**Code:** At this level, the code for the same is developed and in order to simplify the design, the team of developers uses tools and extensions that take care of security problems.
+**-Code:** At this level, the code for the same is developed and in order to simplify the design, the team of developers uses tools and extensions that take care of security problems.
 **Build:** After the coding part, programmers use various tools for the submission of the code to the common code source.
 **Test:** This level is very important to assure software integrity. Various sorts of tests are done such as user acceptability testing, safety testing, speed testing, and many more.
 **Release:** At this level, everything is ready to be deployed in the operational environment.
