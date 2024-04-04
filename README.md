@@ -33,3 +33,16 @@ DevOps lifecycle is the methodology where professional development teams come to
 - **Increased Customer Satisfaction:** DevOps helps organizations to deliver new features and updates more quickly, which can result in increased customer satisfaction and loyalty.
 - **Improved Security:** DevOps promotes security best practices, such as continuous testing and monitoring, which can help to reduce the risk of security breaches and improve the overall security of an organization’s systems.
 - **Better Resource Utilization:** DevOps enables organizations to optimize their use of resources, including hardware, software, and personnel, which can result in cost savings and improved efficiency.
+
+# Software Development Lifecycle
+
+the SDLC is the set of phases that includes DevOps for taking part in Development and Operation group duties for quicker software program delivery. DevOps follows positive techniques that consist of code, building, testing, releasing, deploying, operating, displaying, and planning. DevOps lifecycle follows a range of phases such as non-stop development, non-stop integration, non-stop testing, non-stop monitoring, and non-stop feedback.
+# 7 Cs of DevOps 
+1. Continuous Development
+2. Continuous Integration
+3. Continuous Testing
+4. Continuous Deployment/Continuous Delivery
+5. Continuous Monitoring
+6. Continuous Feedback
+7. Continuous Operations
+![Alternative Text](images/DevOps-lifecycle.png)
