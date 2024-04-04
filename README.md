@@ -55,4 +55,7 @@ In Continuous Development code is written in small, continuous bits rather than 
 - Getting the SourceCode from SCM
 - Building the code
 - Code quality review
-- Storing the build artifacts 
+- Storing the build artifacts
+  
+The stages mentioned above are the flow of Continuous Integration and we can use any of the tools that suit our requirement in each stage and of the most popular tools are Git- GitHub/BitBucket for source code management(SCM) when the developer develops the code on his local machine he pushes it to the remote repository which is GitHub from here who is having the access can Pull, clone and can make required changes to the code. From there by using Maven/Ant/Graddle we can build them into the required package (war, jar, ear) and can test the Junit cases.SonarQube performs code quality reviews where it will measure the quality of source code and generates a report in the form of HTML or PDF format. Nexus for storing the build artifacts will help us to store the artifacts that are build by using Maven and this whole process is achieved by using a Continuous Integration tool Jenkins/CircleCi/GitHubActions/AWSCodePipeline.
+![Alternative Text](images/DevOps-Flow.png)
