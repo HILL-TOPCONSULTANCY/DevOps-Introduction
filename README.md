@@ -16,11 +16,11 @@ Traditional IT has 1000s lines of code and is created by different teams with di
 DevOps lifecycle is the methodology where professional development teams come together to bring products to market more efficiently and quickly. The structure of the DevOps lifecycle consists of Plan, Code, Building, Test, Releasing, Deploying, Operating,  and Monitoring.
 ![Alternative Text](images/DevOps-Intro.png)
 - **Plan:** Determining the commercial needs and gathering the opinions of end-user by professionals in this level of the DevOps lifecycle. 
-- **Code:** At this level, the code for the same is developed and in order to simplify the design, the team of developers uses tools and extensions that take care of security problems.
-- **Build:** After the coding part, programmers use various tools for the submission of the code to the common code source.
-- **Test:** This level is very important to assure software integrity. Various sorts of tests are done such as user acceptability testing, safety testing, speed testing, and many more.
-- **Release:** At this level, everything is ready to be deployed in the operational environment.
-- **Deploy:** In this level, Infrastructure-as-Code assists in creating the operational infrastructure and subsequently publishes the build using various DevOps lifecycle tools.  
+- **Code:** During this point, the code is being developed. To simplify the design process, the developer team employs lifecycle DevOps tools and extensions like Git that assist them in preventing safety problems and bad coding standards.
+- **Build:** After programmers have completed their tasks, they use tools such as Maven and Gradle to submit the code to the common code source. 
+- **Test:** To assure software integrity, the product is first delivered to the test platform to execute various sorts of screening such as user acceptability testing, safety testing, integration checking, speed testing, and so on, utilizing tools such as JUnit, Selenium, etc.
+- **Release:** At this point, the build is prepared to be deployed in the operational environment. The DevOps department prepares updates or sends several versions to production when the build satisfies all checks based on the organizational demands.
+- **Deploy:** At this point, Infrastructure-as-Code assists in creating the operational infrastructure and subsequently publishes the build using various DevOps lifecycle tools.  
 - **Operate:** At this level, the available version is ready for users to use. Here, the department looks after the server configuration and deployment.
 - **Monitor**: The observation is done at this level that depends on the data which is gathered from consumer behavior, the efficiency of applications, and from various other sources.
 
@@ -59,3 +59,22 @@ In Continuous Development code is written in small, continuous bits rather than 
   
 The stages mentioned above are the flow of Continuous Integration and we can use any of the tools that suit our requirement in each stage and of the most popular tools are Git- GitHub/BitBucket for source code management(SCM) when the developer develops the code on his local machine he pushes it to the remote repository which is GitHub from here who is having the access can Pull, clone and can make required changes to the code. From there by using Maven/Ant/Graddle we can build them into the required package (war, jar, ear) and can test the Junit cases.SonarQube performs code quality reviews where it will measure the quality of source code and generates a report in the form of HTML or PDF format. Nexus for storing the build artifacts will help us to store the artifacts that are build by using Maven and this whole process is achieved by using a Continuous Integration tool Jenkins/CircleCi/GitHubActions/AWSCodePipeline.
 ![Alternative Text](images/DevOps-Flow.png)
+
+# 3. Continuous Testing
+Any firm can deploy continuous testing with the use of the agile and DevOps methodologies. Depending on our needs, we can perform continuous testing using automation testing tools such as Testsigma, Selenium, LambdaTest, etc. With these tools, we can test our code and prevent problems and code smells, as well as test more quickly and intelligently. With the aid of a continuous integration platform like Jenkins, the entire process can be automated, which is another added benefit.
+![Alternative Text](images/continuous-testing.png)
+# 4. Continuous Deployment/ Continuous Delivery
+Continuous Deployment: Continuous Deployment is the process of automatically deploying an application into the production environment when it has completed testing and the build stages. Here, we’ll automate everything from obtaining the application’s source code to deploying it.
+![Alternative Text](images/continuous-delivery-1.png)
+Continuous Delivery: Continuous Delivery is the process of deploying an application into production servers manually when it has completed testing and the build stages. Here, we’ll automate the continuous integration processes, however, manual involvement is still required for deploying it to the production environment.
+![Alternative Text](images/continuous-delivery-2.png)
+![Alternative Text](images/DevOps-Flow-1.png)
+
+# 5. Continuous Monitoring
+DevOps lifecycle is incomplete if there was no Continuous Monitoring. Continuous Monitoring can be achieved with the help of Prometheus and Grafana we can continuously monitor and can get notified before anything goes wrong with the help of Prometheus we can gather many performance measures, including CPU and memory utilization, network traffic, application response times, error rates, and others. Grafana makes it possible to visually represent and keep track of data from time series, such as CPU and memory utilization.
+
+# 6. Continuous Feedback
+Once the application is released into the market the end users will use the application and they will give us feedback about the performance of the application and any glitches affecting the user experience after getting multiple feedback from the end users’ the DevOps team will analyze the feedbacks given by end users and they will reach out to the developer team tries to rectify the mistakes they are performed in that piece of code by this we can reduce the errors or bugs that which we are currently developing and can produce much more effective results for the end users also we reduce any unnecessary steps to deploy the application. Continuous Feedback can increase the performance of the application and reduce bugs in the code making it smooth for end users to use the application.
+
+# 7. Continuous Operations 
+We will sustain the higher application uptime by implementing continuous operation, which will assist us to cut down on the maintenance downtime that will negatively impact end users’ experiences. More output, lower manufacturing costs, and better quality control are benefits of continuous operations.
