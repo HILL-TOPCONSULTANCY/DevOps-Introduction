@@ -2,7 +2,7 @@
 
 1. **Implement Least Privilege:** Ensure that each component or user has the minimum access necessary to perform its function.
 
-2. **Use Secure Secrets Management:** Store sensitive information like API keys and passwords in a secure vault (e.g., HashiCorp Vault, AWS Secrets Manager).
+2. **Use Secure Secrets Management:** Store sensitive information like API keys and passwords in a secure vault (e.g., HashiCorp Vault, LassPass, AWS Secrets Manager).
 
 3. **Enable Multi-Factor Authentication (MFA):** Protect critical resources like CI/CD tools and repositories with MFA.
 
