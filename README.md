@@ -78,3 +78,18 @@ Once the application is released into the market the end users will use the appl
 
 # 7. Continuous Operations 
 We will sustain the higher application uptime by implementing continuous operation, which will assist us to cut down on the maintenance downtime that will negatively impact end users’ experiences. More output, lower manufacturing costs, and better quality control are benefits of continuous operations.
+
+### **Waterfall vs. DevOps: Key Differences**
+
+| Aspect            | Waterfall Approach | DevOps Approach |
+|------------------|------------------|----------------|
+| **Development Process** | Linear, sequential phases | Continuous integration & delivery (CI/CD) |
+| **Flexibility** | Rigid, difficult to change | Agile, adaptable to changes |
+| **Deployment** | One-time or scheduled releases | Frequent, automated deployments |
+| **Testing** | Done at the end of development | Continuous testing throughout development |
+| **Collaboration** | Developers & Ops work separately | Developers & Ops work together |
+| **Feedback Loop** | Delayed, comes after full development | Continuous feedback & improvement |
+| **Risk Management** | High risk of late-stage issues | Lower risk due to early issue detection |
+| **Speed** | Slow, long development cycles | Fast, with automation and iteration |
+| **Use Cases** | Stable, well-defined projects (e.g., government, banking) | Dynamic, evolving applications (e.g., cloud services, SaaS) |
+
